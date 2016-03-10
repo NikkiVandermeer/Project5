@@ -1,0 +1,41 @@
+<html>
+<!--********************************************************************************
+  Author: Nikki Vandermeer
+  File: audioNoteEditView.html
+  Created: 3/10/16 
+  Updated: 3/10/16 Added dropdown list for video note status with statusDropDown class 
+     
+*************************************************************************************-->
+
+<body>
+  <div class="ui-navigation-bar">
+    <div class="ui-title" contenteditable="true">%NOTE_NAME%</div>
+    <div class="ui-bar-button-group ui-align-left">
+      <div class="ui-bar-button ui-tint-color ui-back-button">%BACK%</div>
+    </div>
+    
+           <!--******Dropdown list for audio note status***********-->
+    <div class="ui-bar-button-group ui-align-right">
+      <!--<div class="ui-bar-button ui-destructive-color">-->
+      <select class="statusDropdown">
+      	<option  disabled selected>Select Status:</option>
+  		<option value="Follow-up">Follow-Up</option>
+  		<option value="Archive">Archive</option>
+	 </select></div>
+     
+    <div class="ui-bar-button-group ui-align-right">
+      <div class="ui-bar-button ui-destructive-color">%DELETE_NOTE%</div>
+    </div>
+  </div>
+  <div class="ui-scroll-container ui-avoid-navigation-bar">
+    <div class="video-container">
+      <div class="video-element"></div>
+      <div class="video-actions">
+        <div class="ui-glyph ui-background-tint-color ui-glyph-circle-outlined"></div>
+      </div>
+    </div>
+    <textarea class="ui-text-box" onBlur="this.classList.remove('editing');" onFocus="this.classList.add('editing');">%NOTE_CONTENTS%</textarea>
+  </div>
+</body>
+
+</html>
