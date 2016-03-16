@@ -1,24 +1,34 @@
 /*******************************************************************************************
      Author: Nikki Vandermeer
      File: styles.css
-     Purpose: Project 4 stylesheet 
+     Purpose: Project 5b stylesheet 
 	 Created 3/9/16
 	 Updated: 3/9/16 Added ".note-status" class to style the display of the note status
+	 Updated: 3/16/16 Added new style for note status icons Lines 10-31
 *****************************************************************************************/
 
-/*Class that styles the note status display */
+/*Class that styles the note status icon display */
 
-.note-status {
-	
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 300;
-  color: rgba(87, 52, 32, 0.5);
+.noteListView .ui-list-item .note-status {
+  
   float: left;
-  font-style: italic;
-  padding-left: 20px;
+  margin-left: 30px;
+  padding-bottom: 50px; 
 	
 	}
+.noteListView .ui-list-item .note-status.ui-glyph-file-cabinet {
+	background-color: black;
+ 	height: 50px;
+  	width: 35px;
+
+}
+
+.noteListView .ui-list-item .note-status.ui-glyph-push-pin {
+	background-color: red;
+	height: 40px;
+  	width: 35px;
+
+}
 /* General styles */
 
 /* background color */

@@ -1,7 +1,8 @@
 /*******************************************************************************************
      Author: Nikki Vandermeer
      File: textNoteEditView.js
-     Updated: 3/9/16 Added functionality to add status option for follow-up and archive using "statusEditor" and "statusDropDown" class 
+     Updated: 3/9/16 Added functionality to add status option for follow-up and archive using "statusEditor" and "statusDropDown" class
+	 Updated: 3/10/16 Added code line 99 to hold status of note after has been edited. 
 
 *****************************************************************************************/
 

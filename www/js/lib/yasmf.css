@@ -1,31 +1,9 @@
-/*!
- * YASMF-Next Styling
- *
- * yasmf.css
- * @author Kerri Shotts
- * @version 0.4
- *
- * Copyright (c) 2013 Kerri Shotts, photoKandy Studios LLC
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this
- * software and associated documentation files (the "Software"), to deal in the Software
- * without restriction, including without limitation the rights to use, copy, modify,
- * merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
- * permit persons to whom the Software is furnished to do so, subject to the following
- * conditions:
- * The above copyright notice and this permission notice shall be included in all copies
- * or substantial portions of the Software.
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
- * INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
- * PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
- * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
- * OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
- * OTHER DEALINGS IN THE SOFTWARE.
- */
-/*
- *
- * Eric Meyer's Reset CSS v2.0 - http://cssreset.com
- *
- */
+/*******************************************************************************************
+     Author: Nikki Vandermeer
+     File: yasmf.css
+     Purpose: Project 5b yasmf stylesheet 
+	 Updated: 3/16/16 Added glyph classes for new note status icons Lines 922-934
+*****************************************************************************************/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
@@ -918,6 +896,20 @@ div {
   -ms-mask-image: url("./yasmf-assets/arrow-corners-outward@2x.png");
   -o-mask-image: url("./yasmf-assets/arrow-corners-outward@2x.png");
   mask-image: url("./yasmf-assets/arrow-corners-outward@2x.png"); }
+  
+  .ui-glyph-push-pin {
+  -webkit-mask-image: url("./yasmf-assets/push-pin-transparent.png");
+  -moz-mask-image: url("./yasmf-assets/push-pin-transparent.png");
+  -ms-mask-image: url("./yasmf-assets/push-pin-transparent.png");
+  -o-mask-image: url("./yasmf-assets/push-pin-transparent.png");
+  mask-image: url("./yasmf-assets/push-pin-transparent.png"); }
+
+.ui-glyph-file-cabinet {
+  -webkit-mask-image: url("./yasmf-assets/file-cabinet-transparent.png");
+  -moz-mask-image: url("./yasmf-assets/file-cabinet-transparent.png");
+  -ms-mask-image: url("./yasmf-assets/file-cabinet-transparent.png");
+  -o-mask-image: url("./yasmf-assets/file-cabinet-transparent.png");
+  mask-image: url("./yasmf-assets/file-cabinet-transparent.png"); }
 
 .ui-glyph-bookmark {
   -webkit-mask-image: url("./yasmf-assets/bookmark@2x.png");
